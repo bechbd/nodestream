@@ -97,7 +97,7 @@ nodestream = 'nodestream.cli.application:run'
 "commands" = "nodestream.cli.commands"                      
 "audits" = "nodestream.project.audits"                      
 "schema_printers" = "nodestream.schema.printers"
-"databases" = "nodestream.databases.neo4j"
+"databases" = "nodestream.databases"
 
 [tool.ruff]
 ignore = ["E501"]

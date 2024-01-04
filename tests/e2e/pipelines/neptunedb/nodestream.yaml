@@ -1,0 +1,8 @@
+scopes:
+  default:
+    pipelines:
+      - path: tests/e2e/pipelines/neptunedb/airports.yaml
+        name: airports
+      - path: tests/e2e/pipelines/neptunedb/fifa_2021_player_data.yaml
+        name: fifa
+  
